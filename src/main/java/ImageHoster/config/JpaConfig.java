@@ -25,8 +25,7 @@ public class JpaConfig {
         ds.setDriverClassName("org.postgresql.Driver");
         ds.setUrl("jdbc:postgresql://localhost:5432/imageHoster");
         ds.setUsername("postgres");
-        //Set the password with your PostgreSQL password
-        ds.setPassword("password");
+        ds.setPassword("snehal");
         return ds;
     }
 }
